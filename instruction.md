@@ -216,7 +216,7 @@ else
 
 ---
 
-# git ssh token
+# git ssh tokens
 ### &
 # ssh-keygen
 
