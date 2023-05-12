@@ -4,18 +4,20 @@ theme: uncover
 paginate: true
 size: 16:9
 ---
+
 # Tutorials Collection
 
 made with :heart: from 42 BKK Team
 
 ---
-## Prerequisite ##
+
+## Prerequisite
 
 - knowledge about <span style="font-weight:bold">RTFM</span>
 - Basic bash shell knowledge
 - VSCode <span style="font-weight:bold">(NOT VS Studio) </span>
 - Docker Desktop
-    <span style="font-weight:bold">MUST BE LASTEST VERSION AND OPENED </span>
+  <span style="font-weight:bold">MUST BE LASTEST VERSION AND OPENED </span>
 
 ---
 
@@ -30,9 +32,11 @@ and run it as is
 ---
 
 ### Table of content
+
 1. [Setting up workspace](#4)
 
 ---
+
 ## Setting up workspace
 
 - [Setting up Dev container](#6)
@@ -40,11 +44,13 @@ and run it as is
 - FAQ
 
 ---
+
 # <span style="color:white">Setting up Dev container </span>
 
 ![bg](imgs/download_vscode.png)
 
 ---
+
 ### Extension you must have
 
 ![](imgs/pre_setup_1.png)
@@ -70,7 +76,6 @@ and run it as is
 
 ## <span style="color:white"> Python 3 & PostgreSQL </span>
 
-
 ![bg](imgs/setting_up_vscode_3.png)
 
 ---
@@ -86,9 +91,11 @@ and run it as is
 ![](imgs/setting_up_vscode_5.png)
 
 ## Then OK
+
 ## keep default setting
 
 ---
+
 ## Reopen in Container
 
 ![](imgs/setting_up_vscode_6.png)
@@ -100,19 +107,20 @@ and run it as is
 ---
 
 ### Check that your vscode have ssh into dev container
+
 ![w:500](imgs/setting_up_vscode_7.png)
 
 ---
 
 #### press
 
-```ctrl + shift + ~```
+`ctrl + shift + ~`
+
 #### to open a new terminal in dev container
 
 ---
 
 #### Commands for 1st run
-
 
 ```sh
 $ poetry config virtualenvs.in-project true
@@ -124,7 +132,7 @@ Just Press Enter until the poetry init is done
 
 ---
 
-### Edit your  pyproject.toml
+### Edit your pyproject.toml
 
 ```
 [tool.poetry]
@@ -151,7 +159,6 @@ build-backend = "poetry.core.masonry.api"
 
 ### Add all the package need for the project
 
-
 ```sh
 $ poetry add <package> ...
 ```
@@ -163,6 +170,7 @@ exmaple: $ poetry add django django-ninja psycopg2
 ---
 
 ### press
+
 `f1` or `ctrl + shift + p`
 to bring up vscode command pallete
 there should be `>` at the start of the line
@@ -176,6 +184,7 @@ there should be `>` at the start of the line
 ---
 
 ### if it doesn't show '.venv' or 'poetry'
+
 ### continue to next slide
 
 ![](imgs/post_setup_2.png)
@@ -200,10 +209,15 @@ else
 ![](imgs/post_setup_5.png)
 
 ---
+
 ### close your current terminal and open a new one to update the enviroment
+
 ###### `ctrl + d`
+
 (to close current terminal)
+
 ###### `ctrl + shift + ~`
+
 (to open new terminal)
 
 ---
@@ -217,7 +231,9 @@ else
 ---
 
 # git ssh tokens
+
 ### &
+
 # ssh-keygen
 
 ---
