@@ -159,6 +159,16 @@ $ poetry add <package> ...
 ```sh
 exmaple: $ poetry add django django-ninja psycopg2
 ```
+### Fix for new poetry version
+add a README.md or whatever file the readme point to
+```sh
+touch README.md
+```
+
+### Install your poetry package
+```sh
+poetry install
+```
 
 ---
 
